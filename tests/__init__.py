@@ -1,0 +1,1 @@
+"""CyberTrail automated tests."""

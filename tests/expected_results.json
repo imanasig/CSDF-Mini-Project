@@ -1,0 +1,18 @@
+{
+  "normal_activity.csv": {"records": 30, "rules": [], "sequence": []},
+  "brute_force.csv": {"records": 5, "rules": ["R1"], "sequence": [1, 2, 3, 4, 5]},
+  "suspicious_login.csv": {"records": 6, "rules": ["R1", "R2"], "sequence": [1, 2, 3, 4, 5, 6]},
+  "file_access_incident.csv": {"records": 7, "rules": ["R1", "R2", "R3"], "sequence": [1, 2, 3, 4, 5, 6, 7]},
+  "mixed_activity.csv": {"records": 48, "rules": ["R1", "R2", "R3"], "sequence": [], "groups": [[31, 32, 33, 34, 35], [36, 37, 38, 39, 40, 41], [42, 43, 44, 45, 46, 47, 48]]},
+  "invalid_logs.csv": {"records": 6, "rules": [], "sequence": [], "invalid": true},
+  "edge_four_failures.csv": {"records": 4, "rules": [], "sequence": []},
+  "edge_five_boundary.csv": {"records": 5, "rules": ["R1"], "sequence": [1, 2, 3, 4, 5]},
+  "edge_outside_window.csv": {"records": 5, "rules": [], "sequence": []},
+  "edge_multiple_ips.csv": {"records": 6, "rules": [], "sequence": []},
+  "edge_multiple_users.csv": {"records": 6, "rules": [], "sequence": []},
+  "edge_out_of_order.csv": {"records": 7, "rules": ["R1", "R2", "R3"], "sequence": [1, 2, 3, 4, 5, 6, 7]},
+  "edge_success_only.csv": {"records": 1, "rules": [], "sequence": []},
+  "edge_session_mismatch.csv": {"records": 8, "rules": ["R1", "R2"], "sequence": [1, 2, 3, 4, 5, 6]},
+  "edge_duplicate_ids.csv": {"records": 2, "rules": [], "sequence": [], "invalid": true},
+  "sample_events.json": {"records": 7, "rules": ["R1", "R2", "R3"], "sequence": [1, 2, 3, 4, 5, 6, 7]}
+}

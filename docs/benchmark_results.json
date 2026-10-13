@@ -1,0 +1,43 @@
+{
+  "measured_at": "2026-10-13T07:33:03.791825+00:00",
+  "python": "3.14.2",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "architecture": "arm64",
+  "hardware": "Apple M4 (verified with sysctl)",
+  "repeats": 5,
+  "method": "Median milliseconds; deterministic independent seven-event sequences; excludes UI, persistence and reports.",
+  "results": [
+    {
+      "events": 100,
+      "findings": 42,
+      "cases": 14,
+      "parsing_ms": 0.482,
+      "detection_ms": 0.873,
+      "correlation_ms": 0.634
+    },
+    {
+      "events": 1000,
+      "findings": 428,
+      "cases": 143,
+      "parsing_ms": 4.846,
+      "detection_ms": 10.267,
+      "correlation_ms": 7.382
+    },
+    {
+      "events": 5000,
+      "findings": 2142,
+      "cases": 714,
+      "parsing_ms": 25.052,
+      "detection_ms": 46.707,
+      "correlation_ms": 37.563
+    },
+    {
+      "events": 10000,
+      "findings": 4284,
+      "cases": 1428,
+      "parsing_ms": 50.667,
+      "detection_ms": 100.098,
+      "correlation_ms": 81.261
+    }
+  ]
+}

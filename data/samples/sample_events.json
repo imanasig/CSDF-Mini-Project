@@ -1,0 +1,79 @@
+[
+  {
+    "event_id": "EVT-001",
+    "timestamp": "2026-10-13T10:00:00Z",
+    "event_type": "LOGIN_FAILED",
+    "username": "demo_admin",
+    "source_ip": "203.0.113.50",
+    "session_id": "",
+    "resource": "",
+    "status": "FAILURE",
+    "details": "Synthetic incorrect-password attempt"
+  },
+  {
+    "event_id": "EVT-002",
+    "timestamp": "2026-10-13T10:00:20Z",
+    "event_type": "LOGIN_FAILED",
+    "username": "demo_admin",
+    "source_ip": "203.0.113.50",
+    "session_id": "",
+    "resource": "",
+    "status": "FAILURE",
+    "details": "Synthetic incorrect-password attempt"
+  },
+  {
+    "event_id": "EVT-003",
+    "timestamp": "2026-10-13T10:00:40Z",
+    "event_type": "LOGIN_FAILED",
+    "username": "demo_admin",
+    "source_ip": "203.0.113.50",
+    "session_id": "",
+    "resource": "",
+    "status": "FAILURE",
+    "details": "Synthetic incorrect-password attempt"
+  },
+  {
+    "event_id": "EVT-004",
+    "timestamp": "2026-10-13T10:01:00Z",
+    "event_type": "LOGIN_FAILED",
+    "username": "demo_admin",
+    "source_ip": "203.0.113.50",
+    "session_id": "",
+    "resource": "",
+    "status": "FAILURE",
+    "details": "Synthetic incorrect-password attempt"
+  },
+  {
+    "event_id": "EVT-005",
+    "timestamp": "2026-10-13T10:01:20Z",
+    "event_type": "LOGIN_FAILED",
+    "username": "demo_admin",
+    "source_ip": "203.0.113.50",
+    "session_id": "",
+    "resource": "",
+    "status": "FAILURE",
+    "details": "Synthetic incorrect-password attempt"
+  },
+  {
+    "event_id": "EVT-006",
+    "timestamp": "2026-10-13T10:01:50Z",
+    "event_type": "LOGIN_SUCCESS",
+    "username": "demo_admin",
+    "source_ip": "203.0.113.50",
+    "session_id": "SES-A001",
+    "resource": "",
+    "status": "SUCCESS",
+    "details": "Synthetic authenticated login"
+  },
+  {
+    "event_id": "EVT-007",
+    "timestamp": "2026-10-13T10:02:50Z",
+    "event_type": "FILE_ACCESSED",
+    "username": "demo_admin",
+    "source_ip": "203.0.113.50",
+    "session_id": "SES-A001",
+    "resource": "confidential.pdf",
+    "status": "SUCCESS",
+    "details": "Synthetic file read"
+  }
+]

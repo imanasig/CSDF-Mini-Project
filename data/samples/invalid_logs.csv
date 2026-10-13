@@ -1,0 +1,7 @@
+event_id,timestamp,event_type,username,source_ip,session_id,resource,status,details
+EVT-001,not-a-timestamp,LOGIN_FAILED,demo_admin,203.0.113.50,,,FAILURE,Synthetic incorrect-password attempt
+EVT-002,2026-10-13T10:00:20Z,LOGIN_FAILED,,203.0.113.50,,,FAILURE,Synthetic incorrect-password attempt
+EVT-003,2026-10-13T10:00:30Z,LOGIN_FAILED,demo_admin,999.1.1.1,,,FAILURE,Synthetic incorrect-password attempt
+EVT-004,2026-10-13T10:00:40Z,UNKNOWN_EVENT,demo_admin,203.0.113.50,,,FAILURE,Synthetic incorrect-password attempt
+,2026-10-13T10:00:50Z,LOGIN_FAILED,demo_admin,203.0.113.50,,,FAILURE,Synthetic incorrect-password attempt
+EVT-006,2026-10-13T10:01:00Z,LOGIN_FAILED,demo_admin,203.0.113.50,,,,Synthetic incorrect-password attempt

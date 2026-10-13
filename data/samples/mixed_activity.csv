@@ -1,0 +1,49 @@
+event_id,timestamp,event_type,username,source_ip,session_id,resource,status,details
+EVT-001,2026-10-13T10:00:00Z,LOGIN_FAILED,demo_employee_1,192.168.10.1,,,FAILURE,Synthetic incorrect-password attempt
+EVT-002,2026-10-13T10:00:30Z,LOGIN_SUCCESS,demo_employee_1,192.168.10.1,SES-N001,,SUCCESS,Synthetic authenticated login
+EVT-003,2026-10-13T10:01:00Z,FILE_ACCESSED,demo_employee_1,192.168.10.1,SES-N001,team_notes.txt,SUCCESS,Synthetic file read
+EVT-004,2026-10-13T10:01:30Z,FILE_MODIFIED,demo_employee_1,192.168.10.1,SES-N001,draft.txt,SUCCESS,Synthetic file update
+EVT-005,2026-10-13T10:02:00Z,ACCESS_DENIED,demo_employee_1,192.168.10.1,SES-N001,restricted_folder,DENIED,Synthetic resource permission refusal
+EVT-006,2026-10-13T10:02:30Z,LOGOUT,demo_employee_1,192.168.10.1,SES-N001,,SUCCESS,Synthetic session ended
+EVT-031,2026-10-13T10:03:20Z,LOGIN_FAILED,demo_guest,198.51.100.21,,,FAILURE,Synthetic incorrect-password attempt
+EVT-032,2026-10-13T10:03:40Z,LOGIN_FAILED,demo_guest,198.51.100.21,,,FAILURE,Synthetic incorrect-password attempt
+EVT-033,2026-10-13T10:04:00Z,LOGIN_FAILED,demo_guest,198.51.100.21,,,FAILURE,Synthetic incorrect-password attempt
+EVT-034,2026-10-13T10:04:20Z,LOGIN_FAILED,demo_guest,198.51.100.21,,,FAILURE,Synthetic incorrect-password attempt
+EVT-035,2026-10-13T10:04:40Z,LOGIN_FAILED,demo_guest,198.51.100.21,,,FAILURE,Synthetic incorrect-password attempt
+EVT-007,2026-10-13T10:10:00Z,LOGIN_FAILED,demo_employee_2,192.168.10.2,,,FAILURE,Synthetic incorrect-password attempt
+EVT-008,2026-10-13T10:10:30Z,LOGIN_SUCCESS,demo_employee_2,192.168.10.2,SES-N002,,SUCCESS,Synthetic authenticated login
+EVT-009,2026-10-13T10:11:00Z,FILE_ACCESSED,demo_employee_2,192.168.10.2,SES-N002,team_notes.txt,SUCCESS,Synthetic file read
+EVT-010,2026-10-13T10:11:30Z,FILE_MODIFIED,demo_employee_2,192.168.10.2,SES-N002,draft.txt,SUCCESS,Synthetic file update
+EVT-011,2026-10-13T10:12:00Z,ACCESS_DENIED,demo_employee_2,192.168.10.2,SES-N002,restricted_folder,DENIED,Synthetic resource permission refusal
+EVT-012,2026-10-13T10:12:30Z,LOGOUT,demo_employee_2,192.168.10.2,SES-N002,,SUCCESS,Synthetic session ended
+EVT-036,2026-10-13T10:15:00Z,LOGIN_FAILED,demo_operator,203.0.113.22,,,FAILURE,Synthetic incorrect-password attempt
+EVT-037,2026-10-13T10:15:20Z,LOGIN_FAILED,demo_operator,203.0.113.22,,,FAILURE,Synthetic incorrect-password attempt
+EVT-038,2026-10-13T10:15:40Z,LOGIN_FAILED,demo_operator,203.0.113.22,,,FAILURE,Synthetic incorrect-password attempt
+EVT-039,2026-10-13T10:16:00Z,LOGIN_FAILED,demo_operator,203.0.113.22,,,FAILURE,Synthetic incorrect-password attempt
+EVT-040,2026-10-13T10:16:20Z,LOGIN_FAILED,demo_operator,203.0.113.22,,,FAILURE,Synthetic incorrect-password attempt
+EVT-041,2026-10-13T10:16:50Z,LOGIN_SUCCESS,demo_operator,203.0.113.22,SES-M002,,SUCCESS,Synthetic authenticated login
+EVT-013,2026-10-13T10:20:00Z,LOGIN_FAILED,demo_employee_3,192.168.10.3,,,FAILURE,Synthetic incorrect-password attempt
+EVT-014,2026-10-13T10:20:30Z,LOGIN_SUCCESS,demo_employee_3,192.168.10.3,SES-N003,,SUCCESS,Synthetic authenticated login
+EVT-015,2026-10-13T10:21:00Z,FILE_ACCESSED,demo_employee_3,192.168.10.3,SES-N003,team_notes.txt,SUCCESS,Synthetic file read
+EVT-016,2026-10-13T10:21:30Z,FILE_MODIFIED,demo_employee_3,192.168.10.3,SES-N003,draft.txt,SUCCESS,Synthetic file update
+EVT-017,2026-10-13T10:22:00Z,ACCESS_DENIED,demo_employee_3,192.168.10.3,SES-N003,restricted_folder,DENIED,Synthetic resource permission refusal
+EVT-018,2026-10-13T10:22:30Z,LOGOUT,demo_employee_3,192.168.10.3,SES-N003,,SUCCESS,Synthetic session ended
+EVT-042,2026-10-13T10:26:40Z,LOGIN_FAILED,demo_admin,198.51.100.23,,,FAILURE,Synthetic incorrect-password attempt
+EVT-043,2026-10-13T10:27:00Z,LOGIN_FAILED,demo_admin,198.51.100.23,,,FAILURE,Synthetic incorrect-password attempt
+EVT-044,2026-10-13T10:27:20Z,LOGIN_FAILED,demo_admin,198.51.100.23,,,FAILURE,Synthetic incorrect-password attempt
+EVT-045,2026-10-13T10:27:40Z,LOGIN_FAILED,demo_admin,198.51.100.23,,,FAILURE,Synthetic incorrect-password attempt
+EVT-046,2026-10-13T10:28:00Z,LOGIN_FAILED,demo_admin,198.51.100.23,,,FAILURE,Synthetic incorrect-password attempt
+EVT-047,2026-10-13T10:28:30Z,LOGIN_SUCCESS,demo_admin,198.51.100.23,SES-M003,,SUCCESS,Synthetic authenticated login
+EVT-048,2026-10-13T10:29:30Z,FILE_ACCESSED,demo_admin,198.51.100.23,SES-M003,confidential.pdf,SUCCESS,Synthetic file read
+EVT-019,2026-10-13T10:30:00Z,LOGIN_FAILED,demo_employee_4,192.168.10.4,,,FAILURE,Synthetic incorrect-password attempt
+EVT-020,2026-10-13T10:30:30Z,LOGIN_SUCCESS,demo_employee_4,192.168.10.4,SES-N004,,SUCCESS,Synthetic authenticated login
+EVT-021,2026-10-13T10:31:00Z,FILE_ACCESSED,demo_employee_4,192.168.10.4,SES-N004,team_notes.txt,SUCCESS,Synthetic file read
+EVT-022,2026-10-13T10:31:30Z,FILE_MODIFIED,demo_employee_4,192.168.10.4,SES-N004,draft.txt,SUCCESS,Synthetic file update
+EVT-023,2026-10-13T10:32:00Z,ACCESS_DENIED,demo_employee_4,192.168.10.4,SES-N004,restricted_folder,DENIED,Synthetic resource permission refusal
+EVT-024,2026-10-13T10:32:30Z,LOGOUT,demo_employee_4,192.168.10.4,SES-N004,,SUCCESS,Synthetic session ended
+EVT-025,2026-10-13T10:40:00Z,LOGIN_FAILED,demo_employee_5,192.168.10.5,,,FAILURE,Synthetic incorrect-password attempt
+EVT-026,2026-10-13T10:40:30Z,LOGIN_SUCCESS,demo_employee_5,192.168.10.5,SES-N005,,SUCCESS,Synthetic authenticated login
+EVT-027,2026-10-13T10:41:00Z,FILE_ACCESSED,demo_employee_5,192.168.10.5,SES-N005,team_notes.txt,SUCCESS,Synthetic file read
+EVT-028,2026-10-13T10:41:30Z,FILE_MODIFIED,demo_employee_5,192.168.10.5,SES-N005,draft.txt,SUCCESS,Synthetic file update
+EVT-029,2026-10-13T10:42:00Z,ACCESS_DENIED,demo_employee_5,192.168.10.5,SES-N005,restricted_folder,DENIED,Synthetic resource permission refusal
+EVT-030,2026-10-13T10:42:30Z,LOGOUT,demo_employee_5,192.168.10.5,SES-N005,,SUCCESS,Synthetic session ended
